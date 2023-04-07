@@ -1,0 +1,137 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;500&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Lexend:wght@100;200;300;500&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap');
+:root{
+    --bg:rgb(45, 161, 165);
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Alkatra', sans-serif;
+/* font-family: 'Work Sans', sans-serif; */
+}
+body{
+    background-color: rgb(247, 238, 250);
+}
+
+.navbar{
+    background-color: rgb(45, 161, 165);
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-brand{
+    /* border: 1px solid black; */
+    width: 4rem;
+    height: 4rem;
+    padding: 5px;
+}
+.nav-brand img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+.nav-list{
+    
+    /* border:1px solid black; */
+    /* width: 300px; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style:none;
+}
+.nav-item{
+    /* border:1px solid black; */
+    margin: 10px;
+    padding:10px;
+    
+}
+.nav-item a{
+    color: white;
+    font-size: larger;
+    
+    text-decoration: none;
+}
+.nav-item a:hover,a:active{
+    color: black;
+}
+
+main.center{
+    margin: 10px auto;
+    width: 80%;
+}
+
+.header{
+    /* border: 1px solid black; */
+    width: 100%;
+  margin: 10px auto;
+    padding:10px;
+    background-color: rgba(197, 194, 194, 0.63);
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px black ;
+}
+hr{
+    border: 1px solid rgb(152, 150, 150);
+    border-radius: 10px;
+    margin:10px 0px;
+}
+.my_para{
+    color: rgb(111, 109, 109);
+    font-size: large;
+}
+
+
+
+
+
+.row{
+    padding: 30px;
+    /* border: 1px solid black; */
+    /* padding: px; */
+    display: flex;
+    border-radius: 5px;
+    background-image: url("https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop");
+    background-color: rgb(62, 64, 64);
+}
+
+.row .col-8{
+    width:60%;
+}
+.row .col-4{
+    width: 40%;
+}
+
+.row .col-8,.row .col-4{
+    
+    margin: 5px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.682);
+    box-shadow: 0px 0px 13px black ;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+}
+.col-8 h3,.col-4 h3{
+    text-decoration: underline;
+}
+
+.col-8-item p{
+    color:rgb(83, 81, 81);
+    margin-left:10px;
+
+}
+footer{
+    background-color: var(--bg);
+
+}
+footer div{
+    margin-left: 100px;
+}
+footer h1{
+    color:rgb(249, 244, 244);
+}
+.project-image{
+    /* background-image: url("https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg"); */
+}
